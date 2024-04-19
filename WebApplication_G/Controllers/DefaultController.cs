@@ -36,4 +36,6 @@ public class DefaultController(HttpClient httpClient) : Controller
         }
         return RedirectToAction("Home", "Default", "subscribe");
     }
+
+    public IActionResult Contact() { return View(); }
 }
